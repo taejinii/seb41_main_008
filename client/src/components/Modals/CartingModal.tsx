@@ -87,6 +87,7 @@ const CartingModal = () => {
       })
       .catch((err) => console.log(err));
   }, [cartItems]);
+
   const purchaseHandler = () => {
     if (!isLogin) {
       alert('로그인 먼저 해주세요.');
